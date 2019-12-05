@@ -49,8 +49,7 @@ class Homepage extends React.Component {
                             </div>
                         </Link>
                         
-                        
-                    </div>
+                        </div>
                 
                 </div>  
             </div>
