@@ -17,7 +17,7 @@ class App extends React.Component {
               <Route path="/" exact component={Homepage} />
               <Route path="/knowmore" exact component={KnowMore} />
               <Route path="/tryit" exact component={Tryit}/>
-              <Route path="/result" exact component={Result}/>
+              <Route path="/result/:result" exact component={Result}/>
             </div>
           </BrowserRouter>
         </div>

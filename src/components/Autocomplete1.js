@@ -34,10 +34,6 @@ class Autocomplete1 extends React.Component{
         };
       }
 
-    componentDidMount = () => {
-        console.log(skills)
-    }
-
     onChange = (event, { newValue }) => {
         this.props.setValue(newValue)
         this.setState({
